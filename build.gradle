@@ -2,11 +2,11 @@
 buildscript {
 
     ext {
-        kotlin_version = '1.5.21'
+        kotlin_version = '1.4.31'
     }
     ext.versions = [
             'minSdk'           : 25,
-            'compileSdk'       : 31,
+            'compileSdk'       : 32,
             'buildTools'       : '30.0.3',
             'androidPlugin'    : '7.0.1',
             'gson'             : '2.8.0',
@@ -100,8 +100,8 @@ buildscript {
     dependencies {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
-        classpath 'com.android.tools.build:gradle:4.2.2'
-        classpath deps.kotlin.gradleplugin
+        classpath 'com.android.tools.build:gradle:7.0.0'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10"
         classpath "io.insert-koin:koin-gradle-plugin:${versions.koin_version}"
         classpath "androidx.navigation:navigation-safe-args-gradle-plugin:${versions.nav_version}"
         classpath "org.jetbrains.dokka:dokka-android-gradle-plugin:0.9.17"
