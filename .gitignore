@@ -83,3 +83,5 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+localization/.DS_Store
+localization/src/.DS_Store
