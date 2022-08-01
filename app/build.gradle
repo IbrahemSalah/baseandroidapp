@@ -2,7 +2,8 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'kotlin-parcelize'
-    id "androidx.navigation.safeargs.kotlin"
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'kotlin-kapt'
 }
 
 android {
@@ -112,5 +113,5 @@ dependencies {
     api deps.android.lifecycleCommon
 
     api deps.room_db.room
-    api deps.room_db.room_compiler
+    kapt deps.room_db.room_compiler
 }
