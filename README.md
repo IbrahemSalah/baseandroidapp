@@ -19,3 +19,7 @@ Kotlin Flow.
 ## Usage
 
 Just clone and build 
+
+## Features
+
+It has localization manager that helps switching your app language to required langauge, Just add the langauge key and it will be ready.
